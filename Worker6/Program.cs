@@ -2,6 +2,9 @@ using Serilog;
 using Worker5;
 using Worker6;
 
+
+//fork copiato 12/05
+
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((services) =>
     {
